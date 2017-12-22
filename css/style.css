@@ -1,0 +1,118 @@
+@font-face{
+    font-family: DrSugiyama;
+    src: url(../fonts/DrSugiyama-Regular.ttf);
+}
+
+/* ===================================== */
+/* NAVIGATION MENU*/
+/* ===================================== */
+.navbar-custom{
+    color: #fff;
+    background: transparent;
+}
+.navbar-nav > li > a{
+    color: #fff;
+}
+.navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus{
+    background: transparent;
+    color: #DC3545;
+}
+
+/* ===================================== */
+/* HEADER */
+/* ===================================== */
+.header-parallax{
+    padding-top: 0;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header-content{
+    background: rgba(0, 64, 123, 0.7);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.header-content>h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* ===================================== */
+/* ABOUT SECTION */
+/* ===================================== */
+.parallax-section{
+    margin-top: 30px;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parallax-section-content{
+    background: rgba(0,64, 123, 0.9);
+}
+.title{
+    font-family: DrSugiyama;
+}
+
+
+/* ===================================== */
+/* OUR SERVICES SECTION */
+/* ===================================== */
+.our-service{
+    margin-top: 20px;
+}
+.service-box:hover .overlay{
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 64, 123, 0.9);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.text{
+    white-space: nowrap;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+/* ===================================== */
+/* FOOTER */
+/* ===================================== */
+footer{
+    color: #fff;
+    background: #00407b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer>p{
+    color: #fff;
+    text-align: center;
+}
+
+/* ===================================== */
+/* COLOUR */
+/* ===================================== */
+.white{
+    color: #fff;
+}
+.hr-white{
+    border: 1px solid #fff;
+}
+.hr-primary-blue{
+    border: 1px solid #00407b;
+}
